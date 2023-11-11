@@ -5,6 +5,7 @@
 //*      JCL FOR A STANDARD SMS INSTALL OF AN ASGPOP PACKAGE      *
 //* NOW WE ARE READY TO POP AND GET OUR PRODUCT FILES.            *
 //*****************************************************************
+//*
 //ASGPOP   EXEC  PGM=IKJEFT01,
 //             PARM='%ASGPOP JCL2',
 //             DYNAMNBR=64
@@ -25,3 +26,4 @@ REPLACE=YES            YES|NO                          <=== CHANGE
 XMICYLS=108            Number of CYLs for XMI work ds
 HASH=7CD168F0          Checksum hash value
 /*
+//*
