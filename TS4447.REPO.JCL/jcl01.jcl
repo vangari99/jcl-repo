@@ -9,4 +9,3 @@
 //SYSOUT   DD  SYSOUT=*                                            
 //*ERRFILE  DD  SYSOUT=*
 //** comment line 2 for a commit..
-//*
