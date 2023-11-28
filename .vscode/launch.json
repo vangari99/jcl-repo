@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "zos-batch",
+            "request": "launch",
+            "name": "Batch01",
+            "program": "${fileBasename}",
+            "stopOnEntry": true,
+            "stopOnExits": false,
+            "module": "${command:AskForModuleName}",
+            "debugData": ["TS4447.COBOL.AKR"],
+            "searchLibs": [],
+            "zdsRestHost": "localhost",
+            "zdsRestPort": "8083",
+            "args": "",
+            "preLaunchTask": "",
+            "postRunTask": ""
+        },
+        {
+            "type": "zos-batch",
+            "request": "launch",
+            "name": "Batch02",
+            "program": "${fileBasename}",
+            "stopOnEntry": true,
+            "stopOnExits": false,
+            "module": "${command:AskForModuleName}",
+            "debugData": ["TS4447.COBOL.AKR"],
+            "searchLibs": [],
+            "zdsRestHost": "rsb3.rocketsoftware.com",
+            "zdsRestPort": "24888",
+            "args": "",
+            "preLaunchTask": "",
+            "postRunTask": ""
+        }
+    ]
+}
