@@ -6,4 +6,4 @@
 //         DD  DSN=CEE.SCEERUN,DISP=SHR                       
 //         DD  DSN=CEE.SCEERUN2,DISP=SHR                      
 //SYSOUT   DD  SYSOUT=*                                       
-//*ERRFILE  DD  SYSOUT=* //                                     
+//*ERRFILE  DD  SYSOUT=*                                     
