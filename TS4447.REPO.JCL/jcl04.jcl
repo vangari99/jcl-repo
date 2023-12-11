@@ -1,6 +1,7 @@
 //RUNFIB2  JOB (ESW),'COBOL 6.2 RUN',NOTIFY=&SYSUID, 
 //             CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1),TIME=1438
 //***********************************************************
+//* Add Comment
 //         SET HLQ1='TS4447'
 //         SET HLQ3='TEST1'  
 //STEPCOMP EXEC PGM=FIBCHEC2,REGION=0M
