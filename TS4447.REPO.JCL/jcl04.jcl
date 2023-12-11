@@ -3,7 +3,7 @@
 //***********************************************************
 //* Add Comment
 //         SET HLQ1='TS4447'
-//         SET HLQ3='TEST3'  
+//         SET HLQ3='DEMO'  
 //STEPCOMP EXEC PGM=FIBCHEC2,REGION=0M
 //STEPLIB  DD  DSN=TS4447.DEMO.LOADPDSE,DISP=SHR
 //         DD  DSN=&HLQ1..&HLQ3..LOADPDSE,DISP=SHR
